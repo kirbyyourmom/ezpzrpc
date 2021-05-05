@@ -1,0 +1,11 @@
+clientId: 838790886464028674
+details: King Dedede
+state: King Dedede
+smallImage: small
+smallImageText: King Dedede
+largeImage: small
+largeImageText: King Dedede
+button1Text: Button 1
+button1Url: https://google.com
+button1Text: Button 2
+button1Url: https://google.com

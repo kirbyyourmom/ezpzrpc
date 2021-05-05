@@ -1,0 +1,21 @@
+{
+	"name": "ezpzrpc",
+	"version": "1.0.0",
+	"description": "ezpzrpc is a way to display a custom rich presence in discord, easily.",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"discord-rpc": "^3.2.0"
+	},
+	"devDependencies": {
+		"@types/chalk": "^2.2.0",
+		"@types/discord-rpc": "^3.0.5",
+		"@types/node": "12"
+	}
+}
