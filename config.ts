@@ -15,12 +15,12 @@ if (!lines) {
 	process.exit(1);
 }
 
-for (let line of lines) {
+lines.forEach((line) => {
 	line = line.trimLeft();
 	if (line.includes(':')) {
 		let data = line.split(':');
 		config[data[0].trim()] = data.slice(1).join(':').trim();
 	}
-}
+});
 
 export { ok, err, config };
