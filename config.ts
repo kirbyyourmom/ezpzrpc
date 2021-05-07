@@ -1,3 +1,4 @@
+'use strict';
 import { readFileSync } from 'fs';
 import { hex } from 'chalk';
 

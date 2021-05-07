@@ -1,3 +1,4 @@
+'use strict';
 import { Client } from 'discord-rpc';
 import { config, ok, err } from './config.js';
 
