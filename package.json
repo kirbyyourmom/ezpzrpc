@@ -7,7 +7,7 @@
 		"start": "nodemon index.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "kirbyyourmom",
 	"license": "ISC",
 	"dependencies": {
 		"chalk": "^4.1.1",
