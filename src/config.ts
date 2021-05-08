@@ -1,13 +1,16 @@
 'use strict';
 import { readFileSync } from 'fs';
 import { hex } from 'chalk';
+import { join } from 'path';
 
 let config: Record<string, string | undefined> = {};
 
 const ok = hex('#63c5da'),
 	err = hex('#e3242b');
 
-let contents: string = readFileSync('../config.txt').toString();
+let contents: string = readFileSync(
+	join(__dirname, '../config.txt')
+).toString();
 let lines: RegExpMatchArray | null = contents.match(/[^\r\n]+/g);
 
 if (!lines) {
