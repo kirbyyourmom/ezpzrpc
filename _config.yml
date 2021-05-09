@@ -2,3 +2,4 @@ title: ezpzrpc
 description: ezpzrpc is a way to display a custom rich presence in discord, easily.
 show_downloads: false
 theme: jekyll-theme-cayman
+favicon: assets/favicon.png
