@@ -1,6 +1,6 @@
 <img src="./assets/header.png" alt="header/logo image">
 
-# ezpzrpc
+# [ezpzrpc](https://kirbyyourmom.github.io/ezpzrpc/)
 
 ezpzrpc is a way to display a custom rich presence in discord, easily.
 
