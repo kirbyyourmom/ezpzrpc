@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import { hex } from 'chalk';
 import { join } from 'path';
 
-let config: Record<string, string | undefined> = {};
+let config: Record<string, string> = {};
 
 const ok = hex('#63c5da'),
 	err = hex('#e3242b');
