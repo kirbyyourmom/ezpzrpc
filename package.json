@@ -2,9 +2,9 @@
 	"name": "ezpzrpc",
 	"version": "1.0.0",
 	"description": "ezpzrpc is a way to display a custom rich presence in discord, easily.",
-	"main": "index.js",
+	"main": "./dist/index.js",
 	"scripts": {
-		"start": "nodemon index.js"
+		"start": "node ."
 	},
 	"keywords": [],
 	"author": "kirbyyourmom",
