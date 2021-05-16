@@ -23,9 +23,7 @@ if (!clientId) {
 
 const client = new Client({ transport: 'ipc' });
 
-function validateButtons(
-	buttons: { label: string | undefined; url: string | undefined }[]
-) {
+function validateButtons(buttons: { label?: string; url?: string }[]) {
 	let validated: { label: string; url: string }[] = [];
 	validated = validated.filter((button) => button.label && button.url);
 	if (validated.length) return validated;
