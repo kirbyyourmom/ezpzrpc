@@ -10,7 +10,7 @@ ezpzrpc is a way to display a custom rich presence in discord, easily.
 - Once done, open up your terminal and try running `node` or `npm`. If you get an output, you're set! If you don't, you have to add node to your path. To do that, follow [this answer](https://stackoverflow.com/a/27864253).
 - Now, you can go ahead and clone this repo and extract it to a folder.
 - Open a terminal and cd into it by doing `cd path/to/folder/`. Then, run the following: `npm install`. This will resolve and install all the dependencies for you.
-- Next, compile the typescript source files to javascript by this command in the terminal: `tsc`
+- Next, compile the typescript source files to javascript by this command in the terminal: `npx tsc`
 - Once compiled, run the node application by entering the following command in the terminal: `npm start`.
 - If you get a message in blue, it means you're all good! Otherwise, you might have to check what the error says and do what's necessary.
 
