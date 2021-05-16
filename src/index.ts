@@ -1,6 +1,7 @@
 'use strict';
 import { Client } from 'discord-rpc';
 import { config, ok, err } from './config.js';
+import { IButton } from './types/types';
 
 const {
 	clientId,
@@ -23,9 +24,12 @@ if (!clientId) {
 
 const client = new Client({ transport: 'ipc' });
 
-function validateButtons(buttons: { label?: string; url?: string }[]) {
-	let validated: { label: string; url: string }[] = [];
-	validated = validated.filter((button) => button.label && button.url);
+function validateButtons(
+	buttons: { label?: string; url?: string }[]
+): IButton[] | undefined {
+	let validated = buttons.filter((button): button is IButton =>
+		Boolean(button.label && button.url)
+	);
 	if (validated.length) return validated;
 }
 
